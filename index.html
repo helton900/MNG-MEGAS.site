@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MNG MEGAS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('explosao.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+      font-size: clamp(14px, 2.5vw, 18px);
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.75);
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 900px;
+      margin: 30px auto;
+      text-align: center;
+      box-shadow: 0 0 15px #ff0;
+    }
+
+    header h1 {
+      font-size: clamp(28px, 6vw, 42px);
+      color: #ff0044;
+      animation: pulse 1s infinite;
+    }
+
+    header h1::after {
+      content: "💣";
+      margin-left: 10px;
+      animation: blink 0.6s infinite alternate;
+    }
+
+    header p {
+      font-size: clamp(16px, 4vw, 20px);
+      margin-bottom: 20px;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 10px #222;
+    }
+
+    h2 {
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 6px 0;
+      font-size: clamp(14px, 3.5vw, 18px);
+    }
+
+    button, a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #00ffcc;
+      color: #000;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s, transform 0.2s;
+      font-size: clamp(14px, 3.5vw, 18px);
+    }
+
+    button:hover, a:hover {
+      background-color: #ffdd00;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); color: #ff0044; }
+      50% { transform: scale(1.1); color: #00ffcc; }
+      100% { transform: scale(1); color: #ff0044; }
+    }
+
+    @keyframes blink {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🚨 MNG MEGAS</h1>
+      <p>Internet com confiança, rapidez e explosão de vantagens! 📶🔥</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>📦 PACOTE DIÁRIO</h2>
+        <ul>
+          <li>🛜 256MB = 6MT</li>
+          <li>🛜 512MB = 10MT</li>
+          <li>🛜 1024MB = 20MT</li>
+          <li>🛜 2048MB = 38MT</li>
+          <li>🛜 3072MB = 57MT</li>
+          <li>🛜 4096MB = 76MT</li>
+          <li>🛜 5120MB = 95MT</li>
+          <li>🛜 10240MB = 190MT</li>
+          <li>🛜 20480MB = 380MT</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>🛒 PACOTE SEMANAL</h2>
+        <ul>
+          <li>🛜 2.9GB = 85MT</li>
+          <li>🛜 3.4GB = 95MT</li>
+          <li>🛜 5.2GB = 145MT</li>
+          <li>🛜 7.1GB = 195MT</li>
+          <li>🛜 10.7GB = 295MT</li>
+          <li>🛜 14.3GB = 395MT</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>📦 PACOTE MENSAL</h2>
+        <p>⚠️ Não deve ter txuna crédito ⚠️</p>
+        <ul>
+          <li>📊 2.8GB = 95MT</li>
+          <li>📊 3.8GB = 125MT</li>
+          <li>📊 4.8GB = 145MT</li>
+          <li>📊 5.8GB = 165MT</li>
+          <li>📊 6.8GB = 195MT</li>
+          <li>📊 7.8GB = 215MT</li>
+          <li>📊 10.8GB = 285MT</li>
+          <li>📊 12.8GB = 345MT</li>
+          <li>📊 20.8GB = 565MT</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>♾️ TUDO TOP ILIMITADO</h2>
+        <ul>
+          <li>450MT = 📞 + SMS ilimitadas + 🛜 11GB</li>
+          <li>550MT = 📞 + SMS ilimitadas + 🛜 15GB</li>
+          <li>750MT = 📞 + SMS ilimitadas + 🛜 21GB</li>
+          <li>1100MT = 📞 + SMS ilimitadas + 🛜 31GB</li>
+        </ul>
+      </section>
+
+      <section class="pagamento">
+        <h2>💳 FORMAS DE PAGAMENTO</h2>
+        <ul>
+          <li>M-Pesa: <strong>853529033</strong> — Ercílio Uanela 📱</li>
+          <li>e-Mola: <strong>865627840</strong> — Alexandre Uanela 📱</li>
+        </ul>
+        <p><strong>Adquira já os teus megas com segurança, confiança e rapidez! 🚨🔥</strong></p>
+      </section>
+
+      <button onclick="contactar()">💬 Falar com Ercílio</button>
+      <a href="https://chat.whatsapp.com/GhuIjVox5u0Dbeolthy0rU" target="_blank">👥 Entrar no Grupo WhatsApp</a>
+    </main>
+
+    <footer>
+      <p>© Desenvolvido por Helton🧑‍💻 | MNG MEGAS 💣</p>
+    </footer>
+  </div>
+
+  <script>
+    function contactar() {
+      let texto = encodeURIComponent("😃 Oi Ercílio! Vi os pacotes no site e gostei bastante. A MNG MEGAS transmite confiança 🔒📱");
+      window.open("https://wa.me/258865627840?text=" + texto, "_blank");
+    }
+  </script>
+</body>
+</html>
